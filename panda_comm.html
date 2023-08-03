@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Panda Commerce</title>
+    
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">      
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Panda">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                          <li><a class="dropdown-item" href="#shoes">Shoes</a></li>
+                          <li><a class="dropdown-item" href="#bags">Bags</a></li>
+                          <li><a class="dropdown-item" href="#">Headphones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+        </div>
+      </nav>
+
+    <br><br><br>
+    <div id="my-carousel" class="container carousel slide car" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1">
+            </button>
+            <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2">
+            </button>
+        </div>
+  
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-7 col-item">
+                        <h1>Apple Headphone</h1>
+                        <p class="writings">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cum, dolor laborum a dolore commodi impedit itaque magnam voluptate dolorem.
+                        </p>
+                        <h1 class="price">$499</h1>
+                        <button class="buy-now">Buy now</button>
+                    </div>
+                <div class="col-5 col-item">
+                    <img src="./banner-images/headphone.png" alt="HeadPhone" class="d-block w-100">
+                </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-7 col-item">
+                        <h1>MI LED TV 4A Pro 32</h1>
+                        <p class="writings">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cum, dolor laborum a dolore commodi impedit itaque magnam voluptate dolorem.
+                        </p>
+                        <h1 class="price">$1289</h1>
+                        <button class="buy-now">Buy now</button>
+                    </div>
+                    <div class="col-5 col-item">
+                        <img src="./banner-images/tv.png" alt="TV" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-7 col-item">
+                        <h1>Microsoft Xbox pro</h1>
+                        <p class="writings">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cum, dolor laborum a dolore commodi impedit itaque magnam voluptate dolorem.
+                        </p>
+                        <h1 class="price">$1100</h1>
+                        <button class="buy-now">Buy now</button>
+                    </div>
+                    <div class="col-5 col-item">
+                        <img src="./banner-images/xbox.png" alt="Xbox" class="d-block w-100">
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <br><br><br>
+    <div class="container categories">
+        <div class="row">
+            <div class="col-4">
+                <div class="cat-1 d-flex justify-content-around align-items-center">
+                    <h1>Bags</h1>
+                    <img src="./categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="cat-2 d-flex justify-content-around align-items-center">
+                    <h1>Shoes</h1>
+                    <img src="./categories/shoes.png" alt="">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="cat-3 d-flex justify-content-around align-items-center">
+                    <h1>Watches</h1>
+                    <img src="./categories/watch.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="container" id="shoes">
+        <div class="d-flex justify-content-between">
+            <h3>Shoes</h3>
+            <a href="#" style="color: orange; text-decoration:none;">See all</a>
+        </div>
+        <div class="row row-cols-3">
+            <div class="col">
+              <div class="card">
+                <img src="./shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;">Reebok Dart Men's Shoes</h5>
+                  <p class="card-text writings" style="text-align:justify;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 style="text-align:center;">$999</h5>
+                  <div class="text-center"><button type="button" class="btn btn-dark">Buy Now</button></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;">Reebok Pump</h5>
+                  <p class="card-text writings" style="text-align:justify;">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 style="text-align:center;">$899</h5>
+                  <div class="text-center"><button type="button" class="btn btn-dark">Buy Now</button></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;">Reebok All Terrain</h5>
+                  <p class="card-text writings" style="text-align:justify;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 style="text-align:center;">$799</h5>
+                  <div class="text-center"><button type="button" class="btn btn-dark">Buy Now</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <br><br><br>
+    <div class="container" id="bags">
+        <div class="d-flex justify-content-between">
+            <h3>Backpacks</h3>
+            <a href="#" style="color: orange; text-decoration:none;">See all</a>
+        </div>
+        <div class="row row-cols-3">
+            <div class="col">
+              <div class="card card-bag">
+                <img src="./bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;">Ison Backpack</h5>
+                  <p class="card-text writings" style="text-align:justify;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 style="text-align:center;">$999</h5>
+                  <div class="text-center"><button type="button" class="btn btn-dark">Buy Now</button></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-bag">
+                <img src="./bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;">Biaowang Backpack</h5>
+                  <p class="card-text writings" style="text-align:justify;">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 style="text-align:center;">$899</h5>
+                  <div class="text-center"><button type="button" class="btn btn-dark">Buy Now</button></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-bag">
+                <img src="./bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align:center;">Dxyizu WS54 Smart</h5>
+                  <p class="card-text writings" style="text-align:justify;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 style="text-align:center;">$799</h5>
+                  <div class="text-center"><button type="button" class="btn btn-dark">Buy Now</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <br><br><br>
+    <div class="container d-flex align-items-center justify-content-center" id="subscribe">
+        <div class="text-center">
+            <h4>Let's stay in touch</h4>
+            <p class="writings">Get updates on sales, offers and many more</p>
+            <input type="text" class="form-control" placeholder="Enter your e-mail">
+            <button class="buy-now">Subscribe</button>
+        </div>
+    </div>
+    <br><br><br>
+    <footer style="text-align: center; margin-bottom: 1vh;">
+        <small>© Panda Commerce 2023, all rights reserved.</small>
+    </footer>
+
+
+
+
+
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

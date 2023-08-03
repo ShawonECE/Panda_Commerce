@@ -1,0 +1,66 @@
+.car{
+    background-color: #fceae8;
+    border-radius: 15px;
+}
+
+.price{
+    color: #ff136f;
+}
+
+.buy-now{
+    background-image: linear-gradient(to bottom, #ff589B 0%, #ff136f 100%);
+    border: none;
+    border-radius: 3px;
+    padding: 1% 3% 1% 3%;
+    cursor: pointer;
+    color: #fceae8;
+}
+
+.carousel-item {
+    padding: 1% 2% 1% 2%;
+}
+
+.cat-1{
+    background-image: linear-gradient(to right, rgb(255, 204, 0), rgb(255, 225, 105));
+    border-radius: 5px;
+}
+
+.cat-2{
+    background-image: linear-gradient(to right, rgb(255, 88, 255), rgb(247, 162, 255));
+    border-radius: 5px;
+}
+
+.cat-3{
+    background-image: linear-gradient(to right, seagreen, rgb(68, 255, 168));
+    border-radius: 5px;
+}
+
+.categories img{
+    width: 30%;
+    height: auto;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.categories{
+    height: 30vh;
+}
+
+.writings{
+    color: dimgray;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-bag img{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#subscribe{
+    background-color:  #fceae8;
+    height: 45vh;
+}
